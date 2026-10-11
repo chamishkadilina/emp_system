@@ -1,0 +1,5 @@
+{
+    "java.project.sourcePaths": ["EmpSystem/src"],
+    "java.project.referencedLibraries": ["EmpSystem/lib/**/*.jar"],
+    "java.project.outputPath": "EmpSystem/build/vscode-classes"
+}

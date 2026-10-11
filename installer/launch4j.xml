@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Launch4j config: wraps EmpSystem\dist\EmpSystem.jar into "EM System.exe" next to it.
+     Paths are relative to this file. Build the jar first with EmpSystem\build.bat. -->
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>..\EmpSystem\dist\EmpSystem.jar</jar>
+  <outfile>..\EmpSystem\dist\EM System.exe</outfile>
+  <errTitle>EM System</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>https://adoptium.net/</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <classPath>
+    <mainClass>empsystem.Main</mainClass>
+    <cp>lib/AbsoluteLayout.jar</cp>
+    <cp>lib/itextpdf-5.5.13.6.jar</cp>
+    <cp>lib/jcalendar-1.4.jar</cp>
+    <cp>lib/mysql-connector-java-8.0.30.jar</cp>
+    <cp>lib/rs2xml.jar</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>17</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>

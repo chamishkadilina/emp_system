@@ -1,0 +1,11 @@
+# Build output (recreate with EmpSystem/build.sh or build.bat, or NetBeans)
+EmpSystem/build/
+EmpSystem/dist/
+installer/output/
+
+# NetBeans per-user settings
+EmpSystem/nbproject/private/
+
+# OS files
+.DS_Store
+Thumbs.db
